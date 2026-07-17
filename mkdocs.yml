@@ -1,0 +1,8 @@
+site_name: Исследуем DevOps
+theme:
+  name: material
+
+nav:
+  - Главная: index.md
+  - Глава 1. Быстрый старт:
+    - Подготовка виртуальной машины: vm.md
