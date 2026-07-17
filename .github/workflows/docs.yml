@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main # или master, укажите имя вашей главной ветки
+      - main
 
 permissions:
   contents: write
@@ -20,9 +20,9 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install MkDocs and Material Theme
+      - name: Install MkDocs and Terminal Theme
         run: |
-          pip install mkdocs-material
+          pip install mkdocs-terminal
 
       - name: Deploy Docs
         run: |

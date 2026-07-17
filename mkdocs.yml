@@ -1,6 +1,6 @@
 site_name: Исследуем DevOps
 theme:
-  name: material
+  name: terminal
 
 nav:
   - Главная: index.md
